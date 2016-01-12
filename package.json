@@ -1,0 +1,29 @@
+{
+  "name": "email-to-taiga-issue",
+  "version": "1.0.0",
+  "description": "Simple script to listen to emails and convert them to Taiga issues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openly/email-to-taiga-issue.git"
+  },
+  "author": "Abhilash Hebbar <abhi.h@openly.co>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openly/email-to-taiga-issue/issues"
+  },
+  "homepage": "https://github.com/openly/email-to-taiga-issue#readme",
+  "dependencies": {
+    "config": "^1.19.0",
+    "inbox": "^1.1.59",
+    "mailparser": "^0.5.3",
+    "nodemailer": "^2.0.0",
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "restify": "^4.0.3",
+    "winston": "^2.1.1"
+  }
+}
